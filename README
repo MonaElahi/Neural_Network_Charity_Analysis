@@ -1,29 +1,59 @@
 
-Overview of the analysis
+# Overview of the analysis
 
 The purpose of his analysis to create machine learning and neural networks 
 models by using the features in the provided dataset to create a binary classifier 
 that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
-Results
+# Results
 
-Data Preprocessing
-What variable(s) are considered the target(s) for your model?
+## Data Preprocessing
+
+### What variable(s) are considered the target(s) for your model?
 The target variable is "IS_SUCCESSFUL" which is a binary data, classifies charity is successful or not.
 
-What variable(s) are considered to be the features for your model?
+### What variable(s) are considered to be the features for your model?
 
 All the below variables except of "IS_SUCCESSFUL" are features.
 
 ![git-hub]()
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
+### What variable(s) are neither targets nor features, and should be removed from the input data?
 
 There are two noisy varibales which should be dropped from data for percision. 
 ![git-hub]()
 
-Compiling, Training, and Evaluating the Model
+## Compiling, Training, and Evaluating the Model
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+I have taken 43 features and 80 nodes for 1st layer, and 30 nodes for 2nd layer. 
+![git-hub]()
+
+For 1st and 2nd hidden layer activation function used is "relu"
+Output activation function used is "Sigmoid"
+
+![git-hub]()
+
 Were you able to achieve the target model performance?
+The target accuracy for this model was 75% however the acheived accuracy is 73.46%
+
+![git-hub]()
+
 What steps did you take to try and increase model performance?
+
+I did 3 attempts to optimize the performance of the model.
+1ST attempt by adding one more layer, with 3 layers model accuracy score is 73.20%
+
+![git-hub]()
+
+2ND attempt by adding two more layers and with the total of 4 layers accuracy score is 74.71%
+
+![git-hub]()
+
+3RD attempt by changing activation function for 1st & 2nd hidden layer to "relu" and for 3rd layer "tanh"
+
+![git-hub]()
+
+Accuracy acheived 74.04%
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
