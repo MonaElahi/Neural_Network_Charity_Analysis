@@ -30,7 +30,7 @@ I have taken 43 features and 80 nodes for 1st layer, and 30 nodes for 2nd layer.
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/HiddenLayers.PNG)
 
 For 1st and 2nd hidden layer activation function used is "relu"
-Output activation function used is "Sigmoid"
+Output activation function used is "Sigmoid" nn
 
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/ActivationFunction.PNG)
 
