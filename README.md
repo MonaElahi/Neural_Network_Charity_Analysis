@@ -1,3 +1,5 @@
+# Neural Network Charity Analysis
+
 
 # Overview of the analysis
 
@@ -44,7 +46,7 @@ The target accuracy for this model was 75% however the acheived accuracy is 73.4
 I did 3 attempts to optimize the performance of the model.
 1ST attempt by adding one more layer, with 3 layers model accuracy score is 73.20%
 
-![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/1stAttempt.PNG)
+![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/450fdea22016e3694c41e67cc012433a2d69e684/Images/2ndAttempt.PNG)
 
 2ND attempt by adding two more layers and with the total of 4 layers accuracy score is 74.71%
 
@@ -64,4 +66,3 @@ We could further optimize the model by removing more features or adding more dat
 Random forest classifier from Supervised learning could be used to optimize the performance of the model because Random forest model is 
 robust and accurate due to sufficient number of estimators. 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
