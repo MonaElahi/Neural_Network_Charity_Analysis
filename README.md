@@ -12,7 +12,7 @@ that is capable of predicting whether applicants will be successful if funded by
 ### What variable(s) are considered the target(s) for your model?
 The target variable is "IS_SUCCESSFUL" which is a binary data, classifies charity is successful or not.
 
-###What variable(s) are considered to be the features for your model?
+### What variable(s) are considered to be the features for your model?
 
 All the below variables except of "IS_SUCCESSFUL" are features.
 
@@ -23,9 +23,9 @@ All the below variables except of "IS_SUCCESSFUL" are features.
 There are two noisy varibales which should be dropped from data for percision. 
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/DroppedColumns.PNG)
 
-##Compiling, Training, and Evaluating the Model
+## Compiling, Training, and Evaluating the Model
 
-###How many neurons, layers, and activation functions did you select for your neural network model, and why?
+### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 I have taken 43 features and 80 nodes for 1st layer, and 30 nodes for 2nd layer. 
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/HiddenLayers.PNG)
 
@@ -34,7 +34,7 @@ Output activation function used is "Sigmoid" nn
 
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/ActivationFunction.PNG)
 
-###Were you able to achieve the target model performance?
+### Were you able to achieve the target model performance?
 The target accuracy for this model was 75% however the acheived accuracy is 73.46%
 
 ![git-hub](https://github.com/MonaElahi/Neural_Network_Charity_Analysis/blob/9345f73157f444e3582685e068e81226f751e46f/Images/AccuracyScore.PNG)
@@ -56,7 +56,12 @@ I did 3 attempts to optimize the performance of the model.
 
 Accuracy acheived 74.04%
 
-#Summary: 
+# Summary: 
 The model accuracy is 73.46% and by using several methods maximum accuracy acheived is 74.71%
+
+### Recommendation
+We could further optimize the model by removing more features or adding more data to the dataset.
+Random forest classifier from Supervised learning could be used to optimize the performance of the model because Random forest model is 
+robust and accurate due to sufficient number of estimators. 
 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
